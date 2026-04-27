@@ -1,0 +1,9 @@
+groq
+openai          
+requests      
+python-docx   
+SpeechRecognition
+pyaudio
+pyttsx3    
+python-dotenv
+openpyxl

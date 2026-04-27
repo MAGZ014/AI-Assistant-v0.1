@@ -1,0 +1,77 @@
+# ─────────────────────────────────────────
+# Variables de entorno y API keys
+# ─────────────────────────────────────────
+.env
+*.env
+.env.*
+
+# ─────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ─────────────────────────────────────────
+# Piper TTS (binarios y modelos de voz)
+# ─────────────────────────────────────────
+piper/
+*.onnx
+*.onnx.json
+
+# ─────────────────────────────────────────
+# Documentos generados por el agente
+# ─────────────────────────────────────────
+documentos/
+
+# ─────────────────────────────────────────
+# Archivos temporales de audio (TTS)
+# ─────────────────────────────────────────
+*.wav
+*.mp3
+
+# ─────────────────────────────────────────
+# Memoria persistente (cuando la agreguemos)
+# ─────────────────────────────────────────
+memory/*.json
+memory/*.db
+
+# ─────────────────────────────────────────
+# Tests y archivos temporales
+# ─────────────────────────────────────────
+test_*.py
+*.log
+*.tmp
+
+# ─────────────────────────────────────────
+# IDEs y editores
+# ─────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────
+# Windows
+# ─────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
